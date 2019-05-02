@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col,Button } from 'react-bootstrap';
 import '../Home/Home.css';
 import {Link} from 'react-router-dom';
 class Home extends Component {
@@ -15,9 +15,14 @@ class Home extends Component {
                            </span>
                         </p>
                         <p className="front-text-1">
-                            <span className="findoutmore">
+                                <Button variant="outline-light" style={{ width: '50%',padding:'.85%' }} type="button"
+                                                    
+                                                >
+                                                    <Link  to="/about" style={{color:'white'}}>&nbsp;Find out more</Link>
+                                        </Button>
+                            {/* <span className="findoutmore">
                                 &raquo; <Link  to="/about">&nbsp;Find out more</Link>
-                            </span>
+                            </span> */}
                         </p>
                     </Col>
                 </Row>
