@@ -6,7 +6,7 @@ class Portfolio extends Component{
         return(
             <Container>
                 <Row className="justify-content-md-center">
-                     <Col sm={3}>
+                     {/* <Col sm={3}>
                         <h3>
                             <center>
                                  <Image src={logbox} thumbnail className="profile"/>
@@ -31,7 +31,7 @@ class Portfolio extends Component{
                     </Col>
                     <Col sm={3}>
                         <h5><center>Dealer Module </center></h5>                      
-                    </Col>
+                    </Col> */}
                 </Row> 
                 </Container>        
         );
