@@ -1,0 +1,36 @@
+.bgd-container{
+    background-image: url('../../images/home.jpg');
+     width: 99%;
+     height: 745px;
+}
+p.front-text,p.front-text-1,p.front-text-1 > span > a{
+    color:white;
+    text-align: center;
+}
+p.front-text > span {
+    font-size: 2.35em; 
+    font-family:monospace;
+}
+p.front-text-1{
+    margin-top: 1.5%;
+ 
+}
+
+p.front-text-1 > span {
+    font-size: 1.35em; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left:2.5%;
+    padding-right:2.5%;
+    border-radius: 30px;
+    border:3px solid #61dafb;
+
+}
+.clearUserfix{
+    margin-top:25%; 
+}
+/* @media (min-width: 1200px)
+{
+    height: 
+} */
