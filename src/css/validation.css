@@ -1,0 +1,28 @@
+label.invalid-feedback-error{
+    color: #dc3545;
+}
+div.invalid-feedback-error {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+ .has-error 
+{
+    border-color: #dc3545;
+    padding-right: 2.25rem;
+    background-repeat: no-repeat;
+    background-position: center right calc(2.25rem / 4);
+    background-size: calc(2.25rem / 2) calc(2.25rem / 2);
+    background-image: url(https://img.icons8.com/color/48/000000/delete-sign.png)
+} 
+.show-msg{
+    display:inline;
+}
+.hide-msg{
+    display: none;
+}
+
+.alert {
+    border-radius: 0rem;
+}

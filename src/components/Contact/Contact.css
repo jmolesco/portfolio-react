@@ -1,0 +1,14 @@
+col-sm-8, .col-sm-4, .col-sm-7, .col-md-6 {
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+}
+.col-sm-3{
+    text-align: justify;
+}
+.col-sm-3, .col-sm-12,.col-sm-8,.col-sm-4,.col-sm-7,.col-lg-4,.col-md-6{
+    padding-top: 1.75rem;
+    padding-bottom: .75rem;  
+    background-color: #f8f9fa!important;
+    border: 1px solid #f8f9fa;
+
+}

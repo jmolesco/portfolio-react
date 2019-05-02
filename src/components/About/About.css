@@ -1,0 +1,44 @@
+.col-sm-3, .col-sm-12,.col-sm-8,.col-sm-4,.col-sm-7,.col-lg-4,.col-md-6{
+    padding-top: .75rem;
+    padding-bottom: .75rem;  
+    background-color: #f8f9fa!important;
+    border: 1px solid #f8f9fa;
+
+}
+.col-sm-8,.col-sm-4,.col-sm-7,.col-md-6{
+    margin-top:1.25rem;
+    margin-bottom: .75rem;
+}
+.col-sm-3 > h3,.col-sm-3 > h1 {
+    text-align: center;
+}
+.col-sm-3{
+    text-align: justify;
+    margin-top:1.25rem;
+    margin-left:1.75rem;
+    margin-right:1.75rem;
+    margin-bottom: .55rem;
+}
+.col-sm-12{
+    text-align: justify; 
+}
+.col-md-6 > p{
+    text-align: center; 
+}
+.skillset > .btn-toolbar > button{
+    margin: .2rem;
+    text-align: justify;
+}
+.btn-toolbar{
+   float: left; 
+}
+.profile{
+    width:256px;
+    height:256px;
+    border-radius: 50%;
+    border: 5px solid #61dafb;
+}
+
+.btn {
+     border-radius: 0rem; 
+ }
